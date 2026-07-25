@@ -293,6 +293,11 @@ section {
   margin-bottom: 2.5rem;
 }
 
+#about > .section__text__p1,
+#about > .title {
+  text-align: center;
+}
+
 #about .section-container {
   align-items: center;
 }
