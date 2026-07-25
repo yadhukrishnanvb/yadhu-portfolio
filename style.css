@@ -510,7 +510,14 @@ article.icon{
 .contact-email-link {
   align-items: center;
   display: flex;
+  flex-direction: row;
   gap: 0.5rem;
+  line-height: 1;
+  white-space: nowrap;
+}
+
+.contact-email-link .email-icon {
+  flex-shrink: 0;
 }
 
 .contact-email-link,
