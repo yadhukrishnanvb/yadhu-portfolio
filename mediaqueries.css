@@ -90,6 +90,17 @@
   .projects-grid {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
+
+  #experience .about-containers {
+    grid-template-columns: repeat(3, minmax(250px, 1fr));
+    overflow-x: auto;
+    padding: 1rem 0 2rem;
+    scroll-snap-type: x mandatory;
+  }
+
+  #experience .details-container {
+    scroll-snap-align: center;
+  }
 }
 @media screen and (max-width: 600px) {
   #contact,
@@ -198,5 +209,11 @@
 
   .projects-grid {
     grid-template-columns: 1fr;
+  }
+
+  #experience .about-containers {
+    grid-template-columns: repeat(3, minmax(82vw, 1fr));
+    margin-inline: -5vw;
+    padding-inline: 5vw;
   }
 }
