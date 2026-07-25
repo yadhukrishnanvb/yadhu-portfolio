@@ -1,78 +1,62 @@
-# Yadhu Krishnan VB - Portfolio
+# Yadhu Krishnan VB - Personal Portfolio
 
-A responsive personal portfolio presenting my work, skills, education, and
-industrial experience across data science, bioinformatics, scientific research,
-and web development.
+This is my personal portfolio website. I built it to introduce myself and show
+my education, skills, industrial experience, and project interests in one place.
 
-## Live Website
+## View My Website
 
-[View the portfolio](https://yadhukrishnanvb.github.io/yadhu-portfolio/)
+[Open my portfolio](https://yadhukrishnanvb.github.io/yadhu-portfolio/)
 
-## About
+## About Me
 
-I use Python, machine learning, and biological data to explore meaningful
-questions and build practical, evidence-driven tools. This portfolio highlights
-my interdisciplinary background in chemistry, data analysis, bioinformatics,
-frontend development, and industry research.
+I have a background in chemistry and an interest in data science,
+bioinformatics, and scientific research. I use Python, machine learning, and
+biological data to study problems and build useful solutions.
 
-## Features
+I also have one year of industrial experience at SciGenom Labs. My work included
+fluorescence-based assay development, antibody characterization, and data
+analysis using GraphPad Prism.
 
-- Responsive desktop, tablet, and mobile layouts
-- Modern hero section with professional profile photography
-- About, experience, projects, and contact sections
-- Frontend development and data-science skill cards
-- Industrial experience at SciGenom Labs
-- Downloadable resume
-- LinkedIn and GitHub profile links
-- Custom GitHub Pages 404 page
+## What I Have Done
 
-## Technologies
+- Designed and built this portfolio using HTML, CSS, and JavaScript
+- Made the website work on computers, tablets, and mobile phones
+- Added information about my education and technical skills
+- Added my industrial experience and research skills
+- Added project ideas related to data science, health, and bioinformatics
+- Added my resume, LinkedIn profile, and GitHub profile
+- Published the website online using GitHub Pages
 
-- HTML5
-- CSS3
-- JavaScript
-- Responsive media queries
-- Git and GitHub
-- GitHub Pages
+## Skills Shown on the Website
 
-## Project Structure
+- HTML, CSS, JavaScript, Bootstrap, Angular, and Tailwind CSS
+- Python, data analysis, and machine learning
+- Bioinformatics and biological data
+- Scientific assay development
+- Antibody characterization
+- GraphPad Prism
 
-```text
-yadhu-portfolio/
-|-- assets/             # Images, icons, and resume
-|-- index.html          # Main portfolio page
-|-- 404.html            # Custom GitHub Pages error page
-|-- style.css           # Main styling and visual theme
-|-- mediaqueries.css    # Responsive layouts
-|-- script.js           # Navigation and page interactions
-`-- README.md
-```
+## Main Files
 
-## Run Locally
+- `index.html` - website content
+- `style.css` - website design
+- `mediaqueries.css` - mobile and tablet design
+- `script.js` - menu and page interactions
+- `assets/` - photos, icons, project images, and resume
 
-Clone the repository:
+## Run the Website on Your Computer
+
+Download or clone this repository:
 
 ```bash
 git clone https://github.com/yadhukrishnanvb/yadhu-portfolio.git
 cd yadhu-portfolio
 ```
 
-Open `index.html` directly in a browser, or start a local server:
-
-```bash
-python -m http.server 8000
-```
-
-Then visit `http://localhost:8000`.
-
-## Deployment
-
-The website is deployed with GitHub Pages from the `main` branch.
+Open `index.html` in a web browser.
 
 ## Contact
 
 [Connect with me on LinkedIn](https://www.linkedin.com/in/yadhu-krishnan-v-b-65b9093b6)
-
-## License
 
 Copyright 2026 Yadhu Krishnan VB.
