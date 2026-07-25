@@ -552,6 +552,12 @@ article.icon{
   height: 2.5rem;
 }
 
+.contact-email-link {
+  align-items: center;
+  display: flex;
+  gap: 0.5rem;
+}
+
 /* FOOTER SECTION */
 
 footer {
