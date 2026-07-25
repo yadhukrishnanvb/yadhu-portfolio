@@ -379,10 +379,18 @@ section {
 
 .company-experience__header {
   display: flex;
-  align-items: flex-start;
+  align-items: center;
   justify-content: space-between;
   gap: 2rem;
   margin-bottom: 1.25rem;
+}
+
+.company-experience__identity {
+  align-items: center;
+  display: flex;
+  gap: 1rem;
+  min-width: 0;
+  white-space: nowrap;
 }
 
 .company-experience__eyebrow {
@@ -390,12 +398,17 @@ section {
   font-size: 0.85rem;
   font-weight: 700;
   letter-spacing: 0.08em;
-  margin-bottom: 0.4rem;
+  margin: 0;
   text-transform: uppercase;
 }
 
 .company-experience .experience-sub-title {
-  margin-bottom: 0.35rem;
+  font-size: 1.35rem;
+  margin: 0;
+}
+
+.company-experience__identity h3 {
+  font-size: 1rem;
 }
 
 .company-experience__date {

@@ -150,7 +150,8 @@
   #experience .details-container { padding: 1.5rem 1rem; }
   .article-container { gap: 1.75rem 1rem; }
   article { width: calc(50% - .5rem); }
-  .company-experience__header { flex-direction: column; gap: 1rem; }
+  .company-experience__header { align-items: flex-start; flex-direction: column; gap: 1rem; }
+  .company-experience__identity { align-items: flex-start; flex-direction: column; white-space: normal; }
   .company-experience__date { align-self: flex-start; }
   .contact-info-upper-container { flex-direction: column; gap: .8rem; padding: 1.25rem; }
 
