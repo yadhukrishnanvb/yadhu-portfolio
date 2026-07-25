@@ -192,6 +192,21 @@ section {
   margin-bottom: 1rem;
 }
 
+.hero-statement {
+  color: var(--ink);
+  font-size: clamp(1.65rem, 2.8vw, 2.45rem);
+  font-weight: 600;
+  letter-spacing: -0.035em;
+  line-height: 1.2;
+}
+
+.hero-statement span {
+  background: linear-gradient(120deg, var(--primary), var(--accent));
+  background-clip: text;
+  color: transparent;
+  -webkit-background-clip: text;
+}
+
 /* UPDATED: Short supporting statement below the profile title */
 .profile-summary {
   max-width: 36rem;
@@ -528,7 +543,7 @@ section { max-width:1180px; margin-inline:auto; padding-top:6rem; }
 .section__text__p1 { color:var(--primary); font-size:.85rem; font-weight:600; letter-spacing:.14em; text-transform:uppercase; }
 #profile .section__text__p1 { font-size:1.05rem; }
 .title { margin:.45rem 0 1rem; color:var(--ink); font-size:clamp(2.5rem,5vw,4.25rem); line-height:1.08; letter-spacing:-.05em; }
-.section__text__p2 { color:var(--primary-dark); }
+.section__text__p2 { color:var(--ink); }
 .profile-summary { line-height:1.75; }
 .btn { border-color:var(--primary); box-shadow:0 8px 20px rgba(23,107,135,.08); }
 .btn-color-1,.btn-color-2:hover { background:var(--primary); }
