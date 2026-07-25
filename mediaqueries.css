@@ -55,6 +55,30 @@
     height: auto;
   }
 
+  #profile .section__text {
+    margin-inline: auto;
+    padding: 1rem 0;
+    text-align: center;
+  }
+
+  #profile .section__text__p1 {
+    justify-content: center;
+    text-align: center;
+  }
+
+  #profile .title {
+    text-align: center;
+  }
+
+  #profile .profile-summary {
+    margin-inline: auto;
+  }
+
+  #profile .btn-container,
+  #profile #socials-container {
+    justify-content: center;
+  }
+
   .about-containers {
     margin-top: 0;
   }
